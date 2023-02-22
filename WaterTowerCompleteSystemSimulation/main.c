@@ -1,4 +1,8 @@
-/*
+/*-------------------------------------------------------------------------------------------------------
+ * Name:    main.c
+ * Purpose: simulate a water tower system and demonstrate fault injection, fault detection and recovery
+ * Note(s):"This material was originally developed as part of an assignment of the Operating systems for embedded systems course delivered at Politecnico di Torino by Prof. Stefano Di Carlo".
+ *-------------------------------------------------------------------------------------------------------
  * Copyright 2022 ANDREAS SANDSMARK BAKKE, BIPIN THAPA, HEBA MAHMOUD MOHAMED EMAD HASSAN
  *
  * Licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (the "License");
@@ -10,6 +14,7 @@
  * Unless required by applicable law or agreed to in writing, software distributed under the License is
  * distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and limitations under the License.
+ *-----------------------------------------------------------------------------------------------------
  */
 
 
