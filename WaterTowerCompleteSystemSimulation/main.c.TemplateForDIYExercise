@@ -315,6 +315,7 @@ static void DETECTOR_TSK(void *p_arg)
     {
         OSTaskSuspend((void *)0, &os_err);
     }
+}
 
     static void Wake_Task_CONTROLLER(void)
     {
@@ -337,7 +338,8 @@ static void DETECTOR_TSK(void *p_arg)
             sensorReading = currentLevel;
             OSTaskSuspend((void *)0, &os_err);
             controller_mode = signal;
-
+            
+            /*normal mode*/
             inRate = DEFAULT_IN_RATE;
             outValveLimit = 0;
             if (sensorReading >= THRESHOLD_LOW)
