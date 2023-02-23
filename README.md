@@ -1,5 +1,5 @@
 # Real Time Safety And Fault Injection Lab
-PoliTO 02NPSOV 2022 EOS Project 6 Real Time Safety And Fault Injection: Lab implementation and demonstration
+2022-2023 Project 6 Real Time Safety and Fault Injection: Lab Implementation and Demonstration
 
 "This material was originally developed as part of an assignment of the Operating systems for embedded systems course delivered at Politecnico di Torino by Prof. Stefano Di Carlo".
 
