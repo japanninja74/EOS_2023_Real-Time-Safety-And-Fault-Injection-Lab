@@ -12,13 +12,25 @@
  * See the License for the specific language governing permissions and limitations under the License.
  *-----------------------------------------------------------------------------------------------------
  */
- 
-#define DEFAULT_IN_RATE 							5
-#define DESIRED_LEVEL 								180
-#define DELTA 										40
-#define THRESHOLD_HIGH 								DESIRED_LEVEL - DELTA
-#define THRESHOLD_LOW 								DESIRED_LEVEL + DELTA
 
-#define THRESHOLD_WARNING 						    15
-#define THRESHOLD_DETECTION 					    25
-#define THRESHOLD_WARNING_MAX_COUNT 	            3
+/**controller modes**/
+#define NORMAL_MODE 0
+#define GRACEFUL_DEGRADATION_MODE 1
+#define HARD_RECOVERY_MODE 2
+
+/**detection signals**/
+#define WARN 1
+#define ALARM 2
+
+#define DEFAULT_IN_RATE 5
+#define DESIRED_LEVEL 180
+#define DELTA 40
+#define THRESHOLD_HIGH DESIRED_LEVEL - DELTA
+
+/**comparision threshold for the controller and float switch **/
+#define THRESHOLD_LOW DESIRED_LEVEL + DELTA
+
+/**implementation thresholds to be set**/
+#define THRESHOLD_WARNING 0
+#define THRESHOLD_DETECTION 0
+#define THRESHOLD_WARNING_MAX_COUNT 0
