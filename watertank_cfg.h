@@ -30,7 +30,7 @@
 /**comparision threshold for the controller and float switch **/
 #define THRESHOLD_LOW DESIRED_LEVEL + DELTA
 
-/**implementation thresholds**/
-#define THRESHOLD_WARNING 15
-#define THRESHOLD_DETECTION 25
-#define THRESHOLD_WARNING_MAX_COUNT 3
+/**implementation thresholds to be set**/
+#define THRESHOLD_WARNING 0
+#define THRESHOLD_DETECTION 0
+#define THRESHOLD_WARNING_MAX_COUNT 0
